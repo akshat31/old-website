@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="calc">
+        <div class="calc-input-container">
+          <div class="black-area"></div>
+          <span style="padding-right: 12px">
+            <input id="CalcDisplay" value="0" class="calc-input" type="text" disabled/>
+          </span>
+        </div>
+        <div class="calc-btns">
+          <div class="row">
+            <button value="AC" class="numInput btn grey-bg">AC</button>
+            <button class="btn grey-bg">+/-</button>
+            <button value="%" class="numInput btn grey-bg">%</button>
+            <button value="/" class="numInput btn orange-bg">/</button>
+          </div>
+          <div class="row">
+            <button value="7" class="numInput btn">7</button>
+            <button value="8" class="numInput btn">8</button>
+            <button value="9" class="numInput btn">9</button>
+            <button value="*" class="numInput btn orange-bg">x</button>
+          </div>
+          <div class="row">
+            <button value="4" class="numInput btn">4</button>
+            <button value="5" class="numInput btn">5</button>
+            <button value="6" class="numInput btn">6</button>
+            <button value="-" class="numInput btn orange-bg">-</button>
+          </div>
+          <div class="row">
+            <button value="1" class="numInput btn">1</button>
+            <button value="2" class="numInput btn">2</button>
+            <button value="3" class="numInput btn">3</button>
+            <button value="+" class="numInput btn orange-bg">+</button>
+          </div>
+          <div class="row">
+            <button class="btn num-zero">
+              <span value="0" class="numInput zero-align">0</span>
+            </button>
+            <button value="." class="numInput btn">.</button>
+            <button value="=" class="numInput btn orange-bg">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>

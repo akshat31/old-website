@@ -1,0 +1,80 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    overflow: scroll;
+}
+
+.container {
+    background-color: blue;
+    height: 100%;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    background-color: black;
+    height: 448px;
+    width: 278px;
+    border-radius: 10px;
+}
+
+.btn {
+    height: 56px;
+    width: 56px;
+    background-color: rgb(31, 29, 29);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    margin: 5px;
+    color: white;
+    border: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div .orange-bg {
+    background-color: #ee943a;
+}
+
+div .grey-bg {
+    background-color: grey;
+    color: black;
+}
+
+.calc-input-container {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.calc-input {
+    background-color: #000000;
+    border: none;
+    width: 100%;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    color: white;
+    margin: 0;
+    text-align: right;
+}
+
+.num-zero {
+    width: 47%;
+    text-align: left;
+    border-radius: 30px;
+}
+
+.zero-align {
+    padding-left: 22px;
+}
+
+button:hover {
+    border: none;
+}
